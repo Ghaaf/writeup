@@ -8,3 +8,4 @@ while i>0:
     o += chr(res & 255)
     i-=1
 open('flag.zip', 'wb').write(o[::-1])
+#Flag: RC3-GOLANG-BESTLANG-5435
